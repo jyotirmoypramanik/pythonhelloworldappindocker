@@ -10,11 +10,11 @@ The Flask app object is named app (as is standard in Flask documentation).
 
 Build your Docker image with 
 
->>docker build -t pythonwebappindocker . 
+>>docker build -t pythonhelloworldappindocker . 
 
 And run it with 
 
->>docker run -p 5001:5001 pythonwebappindocker. 
+>>docker run -p 5001:5001 pythonhelloworldappindocker. 
 
 Your app will be accessible at http://localhost:5001/.
 
@@ -27,7 +27,7 @@ Your app will be accessible at http://localhost:5001/.
 
 Logs >>
 .....................................................................................................................................
-C:\Work\docker\pythonwebappindocker>docker build -t pythonwebappindocker .
+C:\Work\docker\pythonhelloworldappindocker>docker build -t pythonhelloworldappindocker .
 [+] Building 8.9s (10/10) FINISHED                                                                                docker:default
  => [internal] load .dockerignore                                                                                           0.0s
  => => transferring context: 2B                                                                                             0.0s
@@ -44,14 +44,15 @@ C:\Work\docker\pythonwebappindocker>docker build -t pythonwebappindocker .
  => exporting to image                                                                                                      0.2s
  => => exporting layers                                                                                                     0.2s
  => => writing image sha256:60c1b5c7eff6de4d2f66c5c1b87cccbf395bd58aa3a4e4b20538a5971d85cbdd                                0.0s
- => => naming to docker.io/library/pythonwebappindocker                                                                     0.0s
+ => => naming to docker.io/library/pythonhelloworldappindocker                                                                     0.0s
 
 What's Next?
   View a summary of image vulnerabilities and recommendations → docker scout quickview
 .....................................................................................................................................  
 
 ..................................................................................................................................... 
-C:\Work\docker\pythonwebappindocker>docker run -p 5001:5001 pythonwebappindocker
+
+C:\Work\docker\pythonhelloworldappindocker>>docker run -p 5001:5001 pythonhelloworldappindocker
  * Serving Flask app 'app'
  * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
